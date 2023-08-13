@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Source Sans Pro',sans-serif;
+    color: #000;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.container{
+     width: 950px;
+     margin: 0 auto;
+ }
+.header {
+    background: url("../img/bgc.jpg") no-repeat center top /cover;
+    padding-top: 35px;
+    padding-bottom: 33px;
+    color: #fff;
+    text-decoration: #d4b1b1;
+}
+
