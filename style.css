@@ -10,6 +10,7 @@ body{
 }
 h1,h2,h3,h4,h5,h6{
     padding: 0;
+    line-height: 160%;
     margin: 0;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
@@ -19,10 +20,15 @@ a{
     text-decoration: none;
     color: #fff;
 }
+ul, li{
+    display: block;
+    padding: 0;
+    margin: 0;
+}
 .container{
-     width: 950px;
-     margin: 0 auto;
- }
+    width: 950px;
+    margin: 0 auto;
+}
 .header {
     background: url("../img/bgc.jpg") no-repeat center top /cover;
     padding-top: 35px;
@@ -30,4 +36,31 @@ a{
     color: #fff;
     text-decoration: #d4b1b1;
 }
-
+.header-up{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 30px;
+}
+.info-header ul{
+    display: flex;
+    align-items: center;
+    column-gap: 47px;
+}
+.icons-header ul{
+    display: flex;
+    align-items: center;
+    column-gap: 70px;
+}
+.about-expoforum{
+    display: inline-flex;
+}
+.about-left{
+    display: inline-flex;
+}
+.about-right{
+   display: flex;
+}
+.about-expoforum h1{
+    font-size: 64px;
+}
