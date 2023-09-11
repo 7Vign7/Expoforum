@@ -53,14 +53,26 @@ ul, li{
     column-gap: 70px;
 }
 .about-expoforum{
-    display: inline-flex;
+    display: flex;
 }
 .about-left{
-    display: inline-flex;
+    display: flex;
 }
 .about-right{
    display: flex;
+    justify-content: flex-end;
 }
 .about-expoforum h1{
     font-size: 64px;
+}
+div{
+     border-width:1px;
+     border-color: rgb(102, 201, 48);
+     border-style: solid;
+ }
+.color-left{
+    display: flex;
+}
+.color-right{
+    display: flex;
 }
