@@ -57,10 +57,20 @@ ul, li{
 }
 .about-left{
     display: flex;
+    flex-direction: column;
+    width: 21em;
+}
+.about-leftup{
+    font-size: 24px;
+}
+.about-leftbot{
+    padding-top: 1em;
+    font-size: 16px;
 }
 .about-right{
    display: flex;
     justify-content: flex-end;
+    width: 22em;
 }
 .about-expoforum h1{
     font-size: 64px;
