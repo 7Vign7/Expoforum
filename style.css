@@ -86,3 +86,6 @@ div{
 .color-right{
     display: flex;
 }
+.color-box{
+    width: 510px;
+}
