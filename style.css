@@ -2,7 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family:'Source Sans Pro',sans-serif;
-    color: #000;
+    color: #fff;
     font-size: 16px;
 }
 *{
@@ -12,10 +12,10 @@ h1,h2,h3,h4,h5,h6{
     padding: 0;
     line-height: 160%;
     margin: 0;
+    font-weight: 700;
     text-transform: uppercase;
     font-family: 'Roboto Condensed', sans-serif;
 }
-
 a{
     text-decoration: none;
     color: #fff;
@@ -29,10 +29,18 @@ ul, li{
     width: 950px;
     margin: 0 auto;
 }
+section{
+    padding: 4.7em 0em;
+}
+div{
+     border-width:1px;
+     border-color: rgb(102, 201, 48);
+     border-style: solid;
+ }
 .header {
     background: url("../img/bgc.jpg") no-repeat center top /cover;
-    padding-top: 35px;
-    padding-bottom: 33px;
+    padding-top: 2em;
+    padding-bottom: 3em;
     color: #fff;
     text-decoration: #d4b1b1;
 }
@@ -47,14 +55,27 @@ ul, li{
     align-items: center;
     column-gap: 47px;
 }
+.info-header a{
+    transition: all 0.2s ease;
+}
+.info-header a:hover{
+     color: #fff;
+     text-decoration: underline;
+ }
 .icons-header ul{
     display: flex;
     align-items: center;
     column-gap: 70px;
 }
+.aboout-header{
+    padding-top: 11.5em;
+}
 .about-expoforum{
     display: flex;
 }
+.about-expoforum h1{
+    font-size: 64px;
+ }
 .about-left{
     display: flex;
     flex-direction: column;
@@ -68,24 +89,81 @@ ul, li{
     font-size: 16px;
 }
 .about-right{
-   display: flex;
+    display: flex;
     justify-content: flex-end;
-    width: 22em;
 }
-.about-expoforum h1{
-    font-size: 64px;
-}
-div{
-     border-width:1px;
-     border-color: rgb(102, 201, 48);
-     border-style: solid;
- }
-.color-left{
+.сolor-box{
     display: flex;
 }
-.color-right{
-    display: flex;
+
+.blue, .yellow, .green, .red {
+    width: 255px;
+    height: 148px;
+    padding: 2em 2em 2em 2em  ;
 }
-.color-box{
-    width: 510px;
+.blue{
+    background:#2378FC ;
+    margin: 0em 2em 2em 0em;
+}
+
+.yellow{
+    background: #FFC41E;
+}
+.green{
+    background: #30BCC9;
+    margin: 0em 0em 2em 0em;
+}
+.red{
+    background: #F6404F;
+}
+.party{
+    background: #2378FC;
+}
+.party-anus{
+    display: flex;
+    justify-content: space-around;
+
+}
+.party-anus h3{
+    font-size: 30px;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+}
+.party-anus a{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 135%;
+    transition: all 0.2s ease;
+}
+.party-anus a:hover{
+   color: #FFC41E;
+    text-decoration: underline;
+}
+.party-anus li{
+    padding: 0.6em 0em;
+}
+.sponsor, .exhibitors, .visitor, .press{
+    display: flex;
+    flex-direction: column;
+}
+.event{
+    background: #FFC41E;
+}
+.event-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+    color: #2E373B;
+}
+.event-contents a {
+    color: #2E373B;
+}
+.news{
+    background: #FAF3E3;
+}
+.footer{
+    background: #30BCC9
 }
