@@ -33,10 +33,10 @@ section{
     padding: 4.7em 0em;
 }
 div{
-     border-width:1px;
-     border-color: rgb(102, 201, 48);
-     border-style: solid;
- }
+    border-width:1px;
+    border-color: rgb(102, 201, 48);
+    border-style: solid;
+}
 .header {
     background: url("../img/bgc.jpg") no-repeat center top /cover;
     padding-top: 2em;
@@ -59,9 +59,9 @@ div{
     transition: all 0.2s ease;
 }
 .info-header a:hover{
-     color: #fff;
-     text-decoration: underline;
- }
+    color: #fff;
+    text-decoration: underline;
+}
 .icons-header ul{
     display: flex;
     align-items: center;
@@ -75,7 +75,7 @@ div{
 }
 .about-expoforum h1{
     font-size: 64px;
- }
+}
 .about-left{
     display: flex;
     flex-direction: column;
@@ -138,7 +138,7 @@ div{
     transition: all 0.2s ease;
 }
 .party-anus a:hover{
-   color: #FFC41E;
+    color: #FFC41E;
     text-decoration: underline;
 }
 .party-anus li{
@@ -156,10 +156,23 @@ div{
     justify-content: space-between;
     align-items: center;
     margin-bottom: 55px;
+}
+.black-arrow{
+    font-weight: 500;
     color: #2E373B;
+    font-size: 30px;
+    line-height: 130%;
 }
 .event-contents a {
     color: #2E373B;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    transition: all 0.5s ease;
+}
+.event-up, .event-down{
+    display: flex;
 }
 .news{
     background: #FAF3E3;
