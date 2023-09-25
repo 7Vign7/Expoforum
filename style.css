@@ -87,6 +87,11 @@ div{
 .about-leftbot{
     padding-top: 1em;
     font-size: 16px;
+    transition: all 0.2s ease;
+}
+.about-leftbot a:hover{
+     color: #fff;
+     text-decoration: underline;
 }
 .about-right{
     display: flex;
@@ -95,7 +100,13 @@ div{
 .сolor-box{
     display: flex;
 }
-
+.about-right a{
+    transition: all 0.2s ease;
+}
+.about-right a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
 .blue, .yellow, .green, .red {
     width: 255px;
     height: 148px;
@@ -151,11 +162,31 @@ div{
 .event{
     background: #FFC41E;
 }
-.event-contents{
+.event-contents {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 55px;
+}
+.event-data{
+    color: #2E373B;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 135%;
+}
+.event-about{
+    color: #2E373B;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 135%;
+}
+.event h3{
+    color: #F6404F;
+    font-size: 21px;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: -0.21px;
+    margin: 0.2em 0em ;
 }
 .black-arrow{
     font-weight: 500;
@@ -169,13 +200,57 @@ div{
     font-weight: 500;
     font-size: 21px;
     line-height: 130%;
-    transition: all 0.5s ease;
+    transition: all 0.2s ease;
 }
-.event-up, .event-down{
+.event-contents a:hover{
+    color: #2e373b;
+    text-decoration: underline;
+}
+.event-up{
     display: flex;
+}
+.event-down{
+    display: flex;
+}
+.event-one{
+ margin: 0em 1em 1em 0em;
+}
+.event-two{
+    margin: 0em 1em 1em 1em;
+}
+.event-three{
+    margin: 0em 0em 1em 1em;
+}
+.event-four{
+    margin: 1em 1em 0em 0em;
+}
+.event-five{
+    margin: 1em 1em 0em 1em;
+}
+.event-six{
+    margin: 1em 0em 0em 1em;
 }
 .news{
     background: #FAF3E3;
+}
+.news-right h3{
+    color: #2E373B;
+}
+.news-right h2{
+    color: #2E373B;
+    font-size: 30px;
+    font-style: normal;
+    line-height: 130%;
+    letter-spacing: -0.3px;
+}
+.news-right a{
+    color: #2E373B;
+    font-size: 21px;
+    font-style: normal;
+    line-height: 130%;
+}
+.news-right p{
+    color: #F6404F;
 }
 .footer{
     background: #30BCC9
