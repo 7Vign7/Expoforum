@@ -90,8 +90,8 @@ div{
     transition: all 0.2s ease;
 }
 .about-leftbot a:hover{
-     color: #fff;
-     text-decoration: underline;
+    color: #fff;
+    text-decoration: underline;
 }
 .about-right{
     display: flex;
@@ -213,7 +213,7 @@ div{
     display: flex;
 }
 .event-one{
- margin: 0em 1em 1em 0em;
+    margin: 0em 1em 1em 0em;
 }
 .event-two{
     margin: 0em 1em 1em 1em;
@@ -252,6 +252,12 @@ div{
 .news-right p{
     color: #F6404F;
 }
+.news-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .footer{
     background: #30BCC9
 }
