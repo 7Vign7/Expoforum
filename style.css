@@ -256,8 +256,40 @@ div{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-bottom: 0.5em
 }
-
+.news-full {
+    display: flex;
+}
+.news-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.news-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 2em;
+}
+.news-contenbot {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.news-actual {
+    display: flex;
+}
+.news-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 1em;
+}
+.news-actua2 {
+    display: flex;
+    padding: 1em 0em;
+}
 .footer{
     background: #30BCC9
 }
