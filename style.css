@@ -127,6 +127,7 @@ div{
 .red{
     background: #F6404F;
 }
+/* party */
 .party{
     background: #2378FC;
 }
@@ -159,6 +160,7 @@ div{
     display: flex;
     flex-direction: column;
 }
+/* event */
 .event{
     background: #FFC41E;
 }
@@ -230,6 +232,7 @@ div{
 .event-six{
     margin: 1em 0em 0em 1em;
 }
+/* news */
 .news{
     background: #FAF3E3;
 }
@@ -290,6 +293,55 @@ div{
     display: flex;
     padding: 1em 0em;
 }
+/* footer */
+.footer a{
+    font-size: 14px;
+}
+.footer p{
+    font-size: 14px;
+}
+.footer h3 {
+    font-size: 21px;
+    padding-bottom: 0.5em ;
+}
+.about-footer {
+    display: flex;
+}
+.text-footer li{
+    padding-bottom: 0.5em ;
+}
+.press-links li{
+    padding-bottom: 0.5em ;
+}
+.text-footer {
+    padding-bottom: 2.5em;
+}
+.left-footer {
+    display: flex;
+}
+.right-footer {
+    display: flex;
+}
+.links-footer{
+    display: flex;
+    flex-direction: column;
+}
+.all-text-footer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+.app-footer{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    width: 14em;
+}
 .footer{
-    background: #30BCC9
+    background: #30BCC9;
+    padding: 4em 0;
 }
