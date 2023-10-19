@@ -344,6 +344,9 @@ div{
     justify-content: space-between;
     width: 14em;
 }
+.press-links{
+    padding-bottom: 2em;
+}
 /*.press-links p{
    padding-right:6em;
 }*/
