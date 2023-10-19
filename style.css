@@ -304,6 +304,9 @@ div{
     font-size: 21px;
     padding-bottom: 0.5em ;
 }
+.footer input{
+
+}
 .about-footer {
     display: flex;
 }
@@ -340,6 +343,22 @@ div{
     display: flex;
     justify-content: space-between;
     width: 14em;
+}
+/*.press-links p{
+   padding-right:6em;
+}*/
+.mail{
+    display: flex;
+    padding-top: 1.5em;
+}
+.mail input{
+    background: #ffffff;
+    color: #9C9C9C;
+    padding: 0 2.5em;
+}
+.mail a{
+    background: #F6404F;
+    padding: 0.7em;
 }
 .footer{
     background: #30BCC9;
